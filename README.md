@@ -10,7 +10,7 @@ A spam phone number database on solana blockchain.
 - Privacy
     No account required, no email registration. Just generate a wallet locally.
 
-# Which blockchain
+# Why solana
   - **Ethereum** is too slow
   - **Solana** works (current solution)
   - **Sui** is yet to learn
@@ -18,7 +18,7 @@ A spam phone number database on solana blockchain.
 
 # Cost
   - Use testnet instead of mainnet to avoid transaction fee...
-  - Schedule a daily workflow to airdrop 1 SOL when the balance < 1 SOL. (this is free on testnet)
+  - Schedule a daily workflow to airdrop 1 SOL when the balance < 1 SOL. 
 
 # TODO
 - Support SHA1, store/query a number's SHA1 hash instead of the plain number. 
