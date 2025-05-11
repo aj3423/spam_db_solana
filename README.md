@@ -1,4 +1,4 @@
-A spam phone number database on solana blockchain.
+A spam phone number database on solana blockchain, for app [SpamBlocker](https://github.com/aj3423/SpamBlocker)
 
 # Features
 - Instant query
