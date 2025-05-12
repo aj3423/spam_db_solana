@@ -2,19 +2,23 @@ A spam phone number database on solana blockchain, for app [SpamBlocker](https:/
 
 # Features
 - Instant query
-    Query a number on the fly.
+  - Query a number on the fly.
 - Offline check
-    Download numbers reported in the last N days to the local database. (1<= N <= 60)
+  - Download numbers reported in the last N days to the local database. (1<= N <= 60)
 - Reporting
-    Report a number as spam with category.
+  - Report a number as spam with category.
 - Privacy
-    No account required, no email registration. Just generate a wallet locally.
+  - No account required, no email registration. Just generate a wallet locally.
 
 # Why solana
-  - **Ethereum** is too slow
-  - **Solana** works (current solution)
-  - **Sui** is yet to learn
-  - **IPFS** too slow
+  - **Ethereum**
+    - only ~15 TPS(transaction per second), too low for reporting numbers
+  - **Solana**
+    - current solution, 400~65000 TPS
+  - **Sui**
+    - yet to learn
+  - **IPFS**
+    - too slow for instant query
 
 # Cost
   - Use testnet instead of mainnet to avoid transaction fee...
